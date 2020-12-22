@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scraping"
+version = "0.1.0"
+description = ""
+authors = ["koniferous22 <samuel.melkovic@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+requests = "^2.25.1"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
