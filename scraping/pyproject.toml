@@ -5,9 +5,10 @@ description = ""
 authors = ["koniferous22 <samuel.melkovic@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^2.7"
+python = "^3.7"
 requests = "^2.25.1"
 bs4 = "^0.0.1"
+pandas = "^1.1.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
