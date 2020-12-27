@@ -132,3 +132,10 @@ dmypy.json
 
 # To avoid large data upload
 data/
+
+# For now avoid pushing large file
+training.json
+
+# BS MacOS file
+.DS_Store
+
